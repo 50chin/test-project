@@ -3,7 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/styles/style.css" />
+    <!-- <script src="./src/script/app.js" defer></script> -->
+    <script></script>
     <title>Yandex Crowd</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__menu-block">
+          <div class="header__menu-left">
+            <img class="header__logo" src="./src/img/header/Logo.svg" alt="" />
+            <div
+              class="header__select"
+              onmouseover="showOptions()"
+              onmouseout="hideOptions()"
+            >
+              <span
+                >Solutions
+                <img
+                  src="./src/img/header/Chevron_Down_S.svg"
+                  alt="Chevron_Down"
+              /></span>
+              <ul class="header__lists">
+                <li class="header__list">For marketplaces</li>
+                <li class="header__list">For online stores</li>
+              </ul>
+            </div>
+            <a class="header__link" href="#" target="_blank">Blog</a>
+          </div>
+          <div class="header__menu-right">
+            <div class="header__select">
+              <span
+                >En
+                <img
+                  src="./src/img/header/Chevron_Down_S.svg"
+                  alt="Chevron_Down"
+              /></span>
+              <ul class="header__lists"></ul>
+            </div>
+            <button class="header__btn-login">Log in</button>
+            <a href="" class="header__link" target="_blank">Book a Demo</a>
+          </div>
+        </div>
+        <ul class="header__awards">
+          <li class="header__award">
+            <img src="./src/img/header/1.png" alt="amazon ads" />
+            <span></span>
+            <p class="header__copy">Office ipsum</p>
+          </li>
+          <li class="header__award">
+            <img src="./src/img/header/2.png" alt="amazon" />
+            <span></span>
+            <p class="header__copy">Office ipsum you must be muted.</p>
+          </li>
+          <li class="header__award">
+            <img src="./src/img/header/3.png" alt="union" />
+            <span></span>
+            <p class="header__copy">Office ipsum you must be muted. Six</p>
+          </li>
+        </ul>
+        <div class="header__content">
+          <h1 class="header__title">Torem ipsum dolor sit amet consectetur</h1>
+          <p class="header__subtitle">
+            Lorem ipsum dolor sit amet consectetur. Vel ac blandit ipsum.
+          </p>
+          <button class="header__btn">Book a demo</button>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <p class="header__text">Trusted by 300+ customers worldwide</p>
+        <div class="header__logos">
+          <img src="./src/img/header/str.jpg" alt="logos" />
+          <img src="./src/img/header/str.jpg" alt="logos" />
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
