@@ -2,12 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Suisse Intl';
+  font-family: "Suisse Intl";
 }
 
 .container {
   margin: 0 auto;
-  padding: 0 15px;
   max-width: 1180px;
   box-sizing: content-box;
 }
