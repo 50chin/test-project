@@ -1,0 +1,115 @@
+.office-ipsum {
+  padding: 80px 42px 98px 60px;
+  background-image: url("../img/office-ipsum/bcg.webp");
+  width: 100%;
+  height: 450px;
+}
+
+.office-ipsum__wrapper {
+  display: flex;
+  gap: 137px;
+}
+
+.office-ipsum__text {
+  margin: 75px 0 54px;
+  width: 460px;
+  color: rgb(128, 128, 128);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 110%;
+}
+.office-ipsum__text span {
+  color: rgb(255, 255, 255);
+}
+
+.office-ipsum__illustation {
+  width: 500px;
+  height: 271px;
+  position: relative;
+  padding: 30px 0 68px;
+}
+
+.office-ipsum__dropdown-list {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200.78px;
+  background: rgb(20, 20, 20);
+  height: 64.78px;
+  padding: 21.59px 17.27px;
+  border-radius: 12px;
+}
+.office-ipsum__dropdown-list p {
+  color: rgb(255, 255, 255);
+  font-size: 12.96px;
+  font-weight: 500;
+  line-height: 17.27px;
+}
+
+.office-ipsum__card-first {
+  width: 280px;
+  box-sizing: border-box;
+  border: 1.08px solid rgb(34, 34, 34);
+  border-radius: 12px;
+  background: rgb(1, 1, 1);
+  padding: 20px 17px 25px 17px;
+}
+.office-ipsum__card-second {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+  right: 29px;
+  width: 280px;
+  border-radius: 12px;
+  background: rgb(34, 34, 34);
+  padding: 20px 17px 25px 17px;
+}
+.office-ipsum__info-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.office-ipsum__analytics-terms {
+  color: rgb(161, 158, 170);
+  font-size: 15.12px;
+  font-weight: 400;
+  line-height: 130%;
+}
+
+.office-ipsum__statistics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 25px;
+  color: rgb(156, 207, 79);
+  font-size: 12.96px;
+  font-weight: 600;
+  line-height: 130%;
+  border-radius: 21px;
+  background: rgba(54, 179, 126, 0.24);
+  padding: 2px 0px;
+}
+
+.office-ipsum__metric {
+  margin-top: 9px;
+  font-size: 45.35px;
+  font-weight: 400;
+  line-height: 110%;
+}
+
+.office-ipsum__ppc-data {
+  margin-top: 35px;
+  color: rgb(128, 128, 128);
+  font-size: 12.96px;
+  font-weight: 400;
+  line-height: 120%;
+}
+
+.office-ipsum__ppc-data span {
+  color: rgb(255, 255, 255);
+}
