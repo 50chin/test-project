@@ -8,3 +8,8 @@
   src: url("../fonts/Suisse\ Int'l/SuisseIntl-Regular.otf");
   font-weight: 400;
 }
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url("../fonts/Suisse\ Int'l/SuisseIntl-SemiBold.otf");
+  font-weight: 600;
+}
