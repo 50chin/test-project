@@ -29,3 +29,26 @@
   margin-left: 175px;
   bottom: 0;
 }
+
+.burger-menu {
+  display: none;
+  height: 20px;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 26px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-bottom: 4px;
+}
+
+@media (max-width: 431px) {
+  .laptop__img {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}
