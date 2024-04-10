@@ -2,12 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Suisse Intl";
+  font-family: 'Suisse Intl';
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .container {
   margin: 0 auto;
-  max-width: 1180px;
+  padding: 0 15px;
+  max-width: 1124px;
   box-sizing: content-box;
 }
 
