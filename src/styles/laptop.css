@@ -7,6 +7,7 @@
 }
 
 .laptop__text {
+  width: max-content;
   font-size: 54px;
   font-weight: 400;
   line-height: 120%;
@@ -25,6 +26,6 @@
 
 .laptop__img {
   position: absolute;
+  margin-left: 175px;
   bottom: 0;
-  left: 690px;
 }

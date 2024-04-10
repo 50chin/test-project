@@ -3,12 +3,14 @@
 }
 
 .reviews__title {
+  text-align: center;
   font-size: 42px;
   font-weight: 400;
   line-height: 110%;
 }
 .reviews__cards {
   display: flex;
+  justify-content: center;
   margin-top: 40px;
   gap: 20px;
 }
